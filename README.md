@@ -18,6 +18,6 @@
 
 Запуск нагрузочных тестов осуществляется командой:
 
-`locust -f highloadlocusttest.py --host=http://localhost:8078 --no-web -c 1000 -r 100 -t 1m`
+`locust -f highload_locust_test.py --host=http://localhost:8078 --no-web -c 1000 -r 100 -t 1m`
 
 Где `1m` - время тестирования.
